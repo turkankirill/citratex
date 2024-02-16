@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "sinewaveshape",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MrChens/SineWaveShape",
+      "state" : {
+        "revision" : "f0db321d770a86dee477b982bedcd79ee7ad7b7a",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -1,0 +1,6 @@
+framework module Pods_LineBlock {
+  umbrella header "Pods-LineBlock-umbrella.h"
+
+  export *
+  module * { export * }
+}
