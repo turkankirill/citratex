@@ -1,10 +1,3 @@
-//
-//  WaveSpaceView.swift
-//  LineBlock
-//
-//  Created by ADMIN on 13.02.2024.
-//
-
 import SwiftUI
 import SineWaveShape
 

@@ -44,7 +44,3 @@ struct PremiumButton: View {
         .shadow(color: .bRobinEggBlue.opacity(0.3), radius: 10)
     }
 }
-
-#Preview {
-    PremiumButton()
-}

@@ -114,6 +114,3 @@ struct BatteryView: View {
 }
 
 
-#Preview {
-    BatteryView()
-}

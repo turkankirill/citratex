@@ -17,7 +17,3 @@ struct CustomToggle: View {
             
     }
 }
-
-//#Preview {
-//    CustomToggle(isOn: true)
-//}

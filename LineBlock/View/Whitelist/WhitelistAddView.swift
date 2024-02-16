@@ -1,15 +1,7 @@
-//
-//  WhitelistAddView.swift
-//  OwlBlock
-//
-//  Created by noNameDev on 22.10.2022.
-//
 
 import SwiftUI
 
 struct WhitelistAddView: View {
-    
-//    @EnvironmentObject var vm: BlockersViewModel
     @ObservedObject var vm: ContentblockersViewModel
 
     @Environment(\.presentationMode) var presentationMode
@@ -30,7 +22,6 @@ struct WhitelistAddView: View {
                     doneButton
                 }
                 .background(Color.bMintCream)
-//                .padding(.top, 16)
                 VStack(spacing: 0) {
                     title
                         .frame(minWidth: .zero, maxWidth: .infinity, alignment: .leading)
@@ -49,15 +40,6 @@ struct WhitelistAddView: View {
     }
 }
 
-//#if DEBUG
-//struct WhitelistAddView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        WhitelistAddView()
-//            .preferredColorScheme(.dark)
-//    }
-//}
-//#endif
-
 extension WhitelistAddView {
     
     private var dismissButton: some View {
@@ -72,14 +54,14 @@ extension WhitelistAddView {
     
     private var doneButton: some View {
         Button {
-//            if PurchasesBranx.shared.isPaid {
+            if Acquisitions.shared.isPaid {
             vm.addToList(type: .whitelist, textfieldString)
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
                     presentationMode.wrappedValue.dismiss()
                 }
-//            } else {
-//                showPremium = true
-//            }
+            } else {
+                showPremium = true
+            }
         } label: {
             Text("Add")
                 .font(.workSans(.Regular, style: .body))

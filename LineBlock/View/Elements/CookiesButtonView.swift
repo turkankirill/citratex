@@ -27,7 +27,3 @@ struct CookiesButtonView: View {
 
     }
 }
-
-#Preview {
-    CookiesButtonView()
-}

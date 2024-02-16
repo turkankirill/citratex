@@ -1,10 +1,3 @@
-//
-//  Item.swift
-//  LineBlock
-//
-//  Created by ADMIN on 11.02.2024.
-//
-
 import Foundation
 import SwiftData
 

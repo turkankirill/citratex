@@ -13,21 +13,21 @@ enum ImmutableValues {
 
 struct ApplicationConstants {
     
-    let contentBlockerExtensionIdentifier = "com.kir.testapp.contentblocker"
-    let commonSuiteName = "group.com.kir.testapp"
+    let contentBlockerExtensionIdentifier = "com.terguta.citratex.contentblocker"
+    let commonSuiteName = "group.com.terguta.citratex"
     let blockerContainer = "blockerContainer"
-    let urlScheme = "owlblock"
+    let urlScheme = ""
 }
 
 struct Product {
     
     let isPaid = "isProductPaid"
     
-    let sharedSecret = ""
+    let sharedSecret = "350850eda9fb440bad409e4183a7e461"
     
-    var renewableGroup = SubscriptionGroup(weekly: "com.kir.week",
-                                           monthly: "com.kir.month",
-                                           yearly: "com.kir.anual")
+    var renewableGroup = SubscriptionGroup(weekly: "com.citratex.1week",
+                                           monthly: "com.citratex.1month",
+                                           yearly: "com.citratex.1year")
     
     var renewableIDs = [String]()
     var nonConsumableIDs = [String]()
@@ -52,11 +52,11 @@ struct AppearanceConstants {
 
 struct ApplicationUrlConstants {
     
-    let appURL = "https://apps.apple.com/us/app/id"
-    let itunesApp = "https://itunes.apple.com/app/id"
-    let terms = "https://docs.google.com/document/d/1bwlOaTu0iNeSK9trizN619HsuFPRI0KuT77ZRk9V5w4/edit?usp=sharing"
-    let privacy = "https://docs.google.com/document/d/1PhLfz3HIAprhY1BL1CAUQJBgZyYctmRssK3uAoJCsCg/edit?usp=sharing"
-    let about = "https://curs.md"
+    let appURL = "https://apps.apple.com/us/app/id6478011477"
+    let itunesApp = "https://itunes.apple.com/app/id6478011477"
+    let terms = ""
+    let privacy = ""
+    let about = ""
 }
 
 struct ApplicationFlowConstants {

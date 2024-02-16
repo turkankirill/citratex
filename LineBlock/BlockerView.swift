@@ -116,8 +116,5 @@ struct BlockerView: View {
     }
 }
 
-#Preview {
-    BlockerView(subscription: SubscriptionVM(), blockerViewModel: ContentblockersViewModel())
-}
 
 

@@ -143,9 +143,6 @@ struct InfoView: View {
     }
 }
 
-#Preview {
-    InfoView()
-}
 
 extension InfoView {
     var mapView: some View {

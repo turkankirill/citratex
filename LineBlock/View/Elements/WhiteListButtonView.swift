@@ -1,9 +1,3 @@
-//
-//  WhiteListButtonView.swift
-//  LineBlock
-//
-//  Created by ADMIN on 12.02.2024.
-//
 
 import SwiftUI
 
@@ -35,8 +29,4 @@ struct WhiteListButtonView: View {
             .fill(.white)
             .shadow(color: .bRobinEggBlue.opacity(0.3), radius: 10))
     }
-}
-
-#Preview {
-    WhiteListButtonView()
 }

@@ -34,6 +34,3 @@ struct BlockAdultButtonView: View {
     }
 }
 
-#Preview {
-    BlockAdultButtonView()
-}

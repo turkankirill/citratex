@@ -33,7 +33,3 @@ struct BlockWebTrackersView: View {
         .padding(.trailing, 6)
     }
 }
-
-//#Preview {
-//    BlockWebTrackersView()
-//}

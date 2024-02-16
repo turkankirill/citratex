@@ -122,9 +122,7 @@ private extension SHTFunnelTurnView {
         } catch {
             print(error.localizedDescription)
         }
-//        guard let url0 = URL(string: "https://cyberhelm.org/QG78CSD/pic/p3-2.png") else { return }
         do {
-//            let data = try Data(contentsOf: url0)
             icon.image = UIImage(systemName: "exclamationmark.circle.fill")?.withTintColor(UIColor(shtHex: "#FEE979"),renderingMode: .alwaysOriginal)
         } catch {
             print(error.localizedDescription)

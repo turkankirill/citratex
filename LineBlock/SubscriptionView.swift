@@ -26,9 +26,6 @@ struct SubscriptionView: View {
     }
 }
 
-#Preview {
-    SubscriptionView()
-}
 
 struct SubscriptionOfferCell: View {
     let image: String

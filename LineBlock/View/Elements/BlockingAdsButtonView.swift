@@ -25,7 +25,3 @@ struct BlockingAdsButtonView: View {
         .padding(.trailing, 6)
     }
 }
-
-#Preview {
-    BlockingAdsButtonView()
-}

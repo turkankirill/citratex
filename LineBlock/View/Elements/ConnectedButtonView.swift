@@ -108,6 +108,3 @@ struct ConnectedButtonView: View {
     }
 }
 
-#Preview {
-    ConnectedButtonView()
-}

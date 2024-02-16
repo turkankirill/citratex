@@ -1,9 +1,4 @@
-//
-//  WhitelistView.swift
-//  OwlBlock
-//
-//  Created by noNameDev on 22.10.2022.
-//
+
 
 import SwiftUI
 

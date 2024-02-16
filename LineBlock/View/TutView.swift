@@ -1,9 +1,3 @@
-//
-//  TutView.swift
-//  LineBlock
-//
-//  Created by ADMIN on 15.02.2024.
-//
 
 import SwiftUI
 
@@ -132,8 +126,4 @@ struct SimpleButton: View {
                 .fill(Color.bRobinEggBlue))
             
     }
-}
-
-#Preview {
-    TutView()
 }
